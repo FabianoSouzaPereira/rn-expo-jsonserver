@@ -1,5 +1,7 @@
 ## Created based on the Expo project create react-native-app
 
+This repository is the base skeleton for projects made with React-native. It has a mock json to simulate a RestApi access. It also uses axes to send the requisition. We have access to UNIMODELS with its android and IOS folders, which can change the source code.
+
 Created project with the command:
 
 yarn create react-native-app
