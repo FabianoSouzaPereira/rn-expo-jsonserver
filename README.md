@@ -184,3 +184,41 @@ Customize Preprocess code, use custom parsers, and write your own rules that wor
     https://eslint.org/
     https://prettier.io/
     https://www.npmjs.com/package/json-server
+
+## Dependencies
+
+    "axios": "^0.21.1",
+    "expo": "~40.0.0",
+    "expo-splash-screen": "~0.8.0",
+    "expo-status-bar": "~1.0.3",
+    "expo-updates": "~0.4.0",
+    "json-server": "^0.16.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "~0.63.4",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-screens": "~2.15.0",
+    "react-native-unimodules": "~0.12.0",
+    "react-native-web": "~0.13.12"
+
+## Devdependencies
+
+    "@babel/core": "~7.9.0",
+    "@tsconfig/react-native": "^1.0.2",
+    "@types/axios": "^0.14.0",
+    "@types/prettier": "^2.1.6",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-native": "^0.63.45",
+    "@types/react-redux": "^7.1.15",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "babel-jest": "~25.2.6",
+    "eslint": "^7.17.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-config-prettier": "^7.1.0",
+    "jest": "~25.2.6",
+    "prettier": "^2.2.1",
+    "react-test-renderer": "~16.13.1",
+    "typescript": "^4.1.3"
