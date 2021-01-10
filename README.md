@@ -187,6 +187,9 @@ Customize Preprocess code, use custom parsers, and write your own rules that wor
 
 ## Dependencies
 
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
     "axios": "^0.21.1",
     "expo": "~40.0.0",
     "expo-splash-screen": "~0.8.0",
@@ -195,12 +198,14 @@ Customize Preprocess code, use custom parsers, and write your own rules that wor
     "json-server": "^0.16.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-native": "~0.63.4",
-    "react-native-gesture-handler": "~1.8.0",
-    "react-native-reanimated": "~1.13.0",
-    "react-native-screens": "~2.15.0",
+    "react-native": "^0.63.4",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.16.1",
     "react-native-unimodules": "~0.12.0",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "react-redux": "^7.2.2"
 
 ## Devdependencies
 
@@ -216,9 +221,30 @@ Customize Preprocess code, use custom parsers, and write your own rules that wor
     "@typescript-eslint/parser": "^4.12.0",
     "babel-jest": "~25.2.6",
     "eslint": "^7.17.0",
-    "eslint-plugin-react": "^7.22.0",
     "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-react": "^7.22.0",
     "jest": "~25.2.6",
     "prettier": "^2.2.1",
     "react-test-renderer": "~16.13.1",
     "typescript": "^4.1.3"
+
+## Folders
+
+    src
+        components
+        pages
+            home
+                -- index.tsx
+            Details
+                -- index.tsx
+        routes
+            -- index.tsx
+        services
+            -- api.ts
+            -- auth.ts
+        reducers
+            -- index.js
+        store
+        App.tsx
+        index.js
+        db.json

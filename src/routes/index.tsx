@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import HomeScream from '../pages/home';
+import HomeScream from '../pages/Home';
 import DetailsScreen from '../pages/Details';
 
 const Stack = createStackNavigator();
