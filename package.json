@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Project on rn-expo-jsonserver.",
   "main": "index.js",
+  "keywords": ["Template", "expo", "unimodels"],
   "repository": {
     "url": "https://github.com/FabianoSouzaPereira/rn-expo-jsonserver",
     "type": "git"
