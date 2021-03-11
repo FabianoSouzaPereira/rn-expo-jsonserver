@@ -9,6 +9,7 @@
   },
   "author": "Fabiano de Souza Pereira <fabianodspereira@outlook.com>",
   "license": "MIT",
+  "private": "false",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -63,6 +64,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "private": true
+  }
 }
